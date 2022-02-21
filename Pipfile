@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.douban.com/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+opencv-python = "*"
+numpy = "*"
+path-py = "*"
+eve = "*"
+imutils = "*"
+pillow = "*"
+scikit-image = "*"
+scikit-learn = "*"
+scipy = "*"
+keras = "*"
+tensorflow-gpu = "*"
+
+[dev-packages]
+ipykernel = "*"
+pylint = "*"
+rope = "*"
+requests = "*"
+
+[requires]
+python_version = "3.6"
